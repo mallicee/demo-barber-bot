@@ -1,0 +1,25 @@
+# Секреты (в том числе .env.txt, который иногда создаёт Блокнот)
+.env
+.env.*
+!.env.example
+
+# База данных
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# Виртуальное окружение
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# IDE и система
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
